@@ -10,7 +10,7 @@ public class Notes : MonoBehaviour
 
     -- Black Dot will be pink in 14 gradual steps.
 
-    -- Big Circle Trigger Collider
+    --------------- Big Circle Trigger Collider
 
     -- Collision collider on small circles
 
