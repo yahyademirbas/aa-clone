@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Rotator : MonoBehaviour
 {
@@ -14,13 +15,18 @@ public class Rotator : MonoBehaviour
         instance = this;
     }
 
-    float rotationSpeed = 100f;
+    public static float rotationSpeed = 100f;
     float red=42, green=54, blue=59;
     // Start is called before the first frame update
     void Start()
     {
         rotatorRenderer = GetComponent<SpriteRenderer>();
         
+    }
+    public void GameOver()
+    { 
+        SceneManager.LoadScene(1);
+        rotationSpeed = 0f;
     }
     public void ChangeColor()
     {

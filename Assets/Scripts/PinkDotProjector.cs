@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PinkDotProjector : MonoBehaviour
 {
@@ -20,7 +22,13 @@ public class PinkDotProjector : MonoBehaviour
             isPinned = true;
             transform.SetParent(collision.transform);
             Rotator.instance.ChangeColor();
+            SoundManager.instance.PlayBach();
         }
+        else
+            Rotator.instance.GameOver();
+            
+        
+
     }
     // Update is called once per frame
     void Update()

@@ -6,21 +6,21 @@ public class Notes : MonoBehaviour
 {
     /*
      
-    -- 14 Move. Bach E Major Partita Preludio will be played with chiptune
+    -- DONE 14 Move. Bach E Major Partita Preludio will be played with chiptune
 
-    -- Black Dot will be pink in 14 gradual steps.
+    -- DONE Black Dot will be pink in 14 gradual steps.
 
-    --------------- Big Circle Trigger Collider
+    -- DONE Big Circle Trigger Collider
 
-    -- Collision collider on small circles
+    -- DONE Collision collider on small circles
 
     -- Texts on circles.
 
-    -- Rotation. 
+    -- DONE Rotation. 
 
-    -- Shake Screen when player fails. Also change de background color
+    -- DONE Shake Screen when player fails. Also change de background color
 
-    --
+    -- DONE Toccata and Fugue on GameOver scene. Also a mad bach animation will be fun.
      
      
      
