@@ -7,7 +7,7 @@ SOME COOL FEATURES
 
 -You should make 14 successful moves to finish the game.
 
--Every time you press spacebar, you hear a note. These are the first 14 notes of "Bach's Violin Partita No.3 in E major - Preludio".
+-Every time you press spacebar, you hear a note. These are the first 14 notes of "Bach's Violin Partita No.3 in E major - Preludio" IN CHIPTUNE!!
 
 -Also every time you make a succesful move, Rotator's color will change gradually to the color of the pink pins.
 
